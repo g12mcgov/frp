@@ -96,7 +96,7 @@ Put **frpc** and **frpc.ini** to your server in LAN.
 
 Sometimes we want to expose a local web service behind a NAT network to others for testing with your own domain name and unfortunately we can't resolve a domain name to a local ip.
 
-Howerver, we can expose a http or https service using frp.
+However, we can expose a http or https service using frp.
 
 1. Modify frps.ini, configure a http reverse proxy named [web] and set http port as 8080, custom domain as `www.yourdomain.com`:
 
